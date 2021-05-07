@@ -8,3 +8,6 @@ CFLAGS=-std=c99
 
 main: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
+
+#im a comment!
+
