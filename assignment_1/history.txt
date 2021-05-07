@@ -1,0 +1,179 @@
+   97  git init --bare
+   98  cd /mnt/scratch-lustre/$student02
+   99  ls
+  100  cd student02
+  101  ls
+  102  cd gauss2d
+  103  git init
+  104  echo "*.o" > .gitignore
+  105  git add gauss2d.cc Makefile plot.py .gitignore
+  106  git status
+  107  pwd
+  108  ls
+  109  git commit -m "Working 2D Gaussian array generation code and plotting script"
+  110  git log
+  111  git commit -m
+  112  git commit
+  113  git status
+  114  git add gauss2d.cc Makefile plot.py .gitignore
+  115  git commit 
+  116  git status
+  117  git log
+  118  cd ..
+  119  ls
+  120  pwd
+  121  cd gauss2d
+  122  ls
+  123  cd gauss2d
+  124  ls
+  125  git init
+  126  echo ".o" > .gitignore
+  127  git add gauss2d.cc Makefile plot.py .gitignore
+  128  git status
+  129  git commit -m
+  130  git commit
+  131  git log
+  132  git remote add origin /home/student02/repos/gauss2d.git
+  133  cat .git/config
+  134  git push --set-upstream origin master
+  135  vim gauss2d.cc
+  136  vim plot.py
+  137  git status
+  138  git diff HEAD
+  139  git diff HEAD gauss2d.cc
+  140  git add gau
+  141  git add -u
+  142  git status
+  143  git commit -m "Added useless comments"
+  144  git push
+  145  git status
+  146  ls
+  147  cd Desktop/bleb
+  148  ls
+  149  cd CTA200H
+  150  ls
+  151  cd lecture2
+  152  ls
+  153  which python
+  154  python --version
+  155  module
+  156  module avail
+  157  python
+  158  python 
+  159  ipython
+  160  cat hello2.py
+  161  ipython
+  162  which jupyter
+  163  module load gcc/4.9.2 python/2.7.10
+  164  jupyter notebook &
+  165  kill %l
+  166  ps -ux
+  167  ps -ux | grep firefox
+  168  ps ux | grep firefox
+  169  kill -9 2319
+  170  kill -9 24878
+  171  firefox
+  172  jupyter notebook
+  173  module
+  174  module load gcc/4.9.2 python/2.7.10
+  175  jupyter notebook
+  176  jupyter notebook--no-browser
+  177  jupyter notebook --no-browser
+  178  ls
+  179  cd Desktop
+  180  echo "# CTA200" >>README.md
+  181  ls
+  182  cd bleb
+  183  cd ..
+  184  mkdir bleb2
+  185  cd bleb2
+  186  echo "# CTA200" >> README.md
+  187  git init
+  188  git add README.md
+  189  git commit -m "first commit"
+  190  git branch -M main
+  191  ssh-keygen
+  192  cd /.ssh
+  193  cd ~/.ssh
+  194  ls
+  195  ls -la
+  196  more id_rsa.pub
+  197  ls
+  198  cd ~/Desktop/bleb2
+  199  ls
+  200  git remote add origin https://github.com/nickjc1999/CTA200.git
+  201  git push -u origin main
+  202  git remote add origin git@github.com:nickjc1999/CTA200.git
+  203  git remote rm origin
+  204  git remote add origin git@github.com:nickjc1999/CTA200.git
+  205  git push -u origin main
+  206  git commit 2spoopi4u
+  207  git commit -m "first commit"ls
+  208  ls
+  209  git status
+  210  vi README.md
+  211  git status
+  212  git commit -m
+  213  get commit am"added 2spoopi2u to README"
+  214  git commit am"added 2spoopi2u to README"
+  215  git commit -am"added 2spoopi2u to README"
+  216  echo "# CTA200" >> LICENSE.md
+  217  ls
+  218  vm LICENCE.md
+  219  vi LICENCE.md
+  220  git add LICENCE.md
+  221  git status
+  222  git commit -am"added a license"
+  223  git status
+  224  git add .
+  225  git status
+  226  git commit -am"added a license"
+  227  git push
+  228  git status
+  229  git remove LICENCE.md
+  230  git remote rm LICENCE.md
+  231  git remote -rm LICENCE.md
+  232  git remote rm LICENCE.md
+  233  git rm LICENCE.md
+  234  git status
+  235  git commit -am"removed a duplicate file"
+  236  git push
+  237  mkdir assignment_1
+  238  ls
+  239  cd ~/Desktop
+  240  ls
+  241  cd bleb2
+  242  ls
+  243  cd ..
+  244  ls
+  245  cd bleb
+  246  ls
+  247  cd CTA200H
+  248  ls
+  249  cd assignment1_2021
+  250  ls
+  251  cp average.c ~/Desktop/bleb2/assignment_1
+  252  cp average.h ~/Desktop/bleb2/assignment_1
+  253  cp main.c ~/Desktop/bleb2/assignment_1
+  254  cd ~/Desktop/bleb2/assignment_1
+  255  ls
+  256  echo > Makefile
+  257  ls
+  258  vi Makefile
+  259  ls
+  260  make
+  261  vi Makefile
+  262  make
+  263  vi Makefile
+  264  git add .
+  265  git status
+  266  git commit -am"added a makefile, the .c and the .h"
+  267  git push
+  268  history | -n 300 > history.txt
+  269  history | tail -n 300 > history.txt
+  270  ls
+  271  vi history.txt
+  272  history | tail -n 179 > history.txt
+  273  vi history.txt
+  274  rm history.txt
+  275  history | tail -n 179 > history.txt
